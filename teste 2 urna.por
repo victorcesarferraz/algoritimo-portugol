@@ -26,7 +26,29 @@ programa
 	   escreva("----------------------------\n")
 	   escreva("digite a votação ")
 	   leia(opcao)
-	    }enquanto (opcao !=5)
+	    }enquanto (opcao !=5) 
+	    
+	    	 faca{
+	    	 	
+	    	 
+	    	 
+	    escolha (numeroCandidato)
+
+	        caso 1:candidato1++
+	               totalvotos++
+	               escreva("candidato 1 recebel um voto \n")
+
+	        caso 2: candidato2++
+	                totalvotos++
+	                escreva("candidato 2 recebel um voto\n") 
+	                
+	        caso 3: candidato++ 
+	                totalvotos++
+	                escreva("candidato 3 recebel um voto\n")      
+           ]
+	                
+	    
+	                    
 	}
 }
 
@@ -35,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 537; 
+ * @POSICAO-CURSOR = 638; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
