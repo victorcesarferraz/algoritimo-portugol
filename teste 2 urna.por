@@ -27,25 +27,49 @@ programa
 	   escreva("digite a votação ")
 	   leia(opcao)
 	    }enquanto (opcao !=5) 
+
+
+
+	    
 	    
 	    	 faca{
 	    	 	
 	    	 
 	    	 
-	    escolha (numeroCandidato)
-
-	        caso 1:candidato1++
+	    escolha (numeroCandidato){
+	
+		
+	        caso 1:
+	               candidato1++
 	               totalvotos++
-	               escreva("candidato 1 recebel um voto \n")
-
-	        caso 2: candidato2++
+	               escreva("candidato 1 recebel  voto \n")
+                    pare
+	        caso 2:
+	                candidato2++
 	                totalvotos++
-	                escreva("candidato 2 recebel um voto\n") 
+	                escreva("candidato 2 recebel voto\n") 
+	                pare
+	        caso 3: 
+	                candidato++ 
+	                totalvotos++
+	                escreva("candidato 3 recebel  voto\n")  
+                     pare
+	        caso 4:
+	                candidato++
+	                totalvotos++
+	                escreva("candidato 4 recebel votos\n")
+	                 pare
+	                 
+	        caso :  ("digite a voto em branco e nulo")
+	               pare
+	               
+	                }
 	                
-	        caso 3: candidato++ 
-	                totalvotos++
-	                escreva("candidato 3 recebel um voto\n")      
-           ]
+	          ("eleiçao 2023")
+	          
+	          
+	                
+	    	 }
 	                
 	    
 	                    
@@ -57,7 +81,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 638; 
+ * @POSICAO-CURSOR = 63; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
